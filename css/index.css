@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    margin: 1rem 2.5%;
+    /* display: flex;
+    flex-flow: column;
+    justify-content: center; */
+    width: 87.5%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: .5rem;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+header > h1 {
+    line-height: 3.25rem;
+    margin: 0;
+}
+header > .subheading {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+p {
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.35rem;
+}
+.text-center {
+    text-align: center;
+}
+hr {
+    margin: 1rem;
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article>h2 {
+    font-weight: 100;
+    font-family: 35%;
+}
+
+p {
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+article ~ p {
+    font-size: 95%;
+}
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    font-size: 1.15rem;
+    font-weight: 990;
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+.btn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    display: flex;
+    font-size: 1.15rem;
+    font-weight: 990;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: buttonface;
+    border: 2px solid black;
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    text-align: cetner;
+    text-decoration: none;
+}
+.btn:visited {
+    color: black;
+}
+
+.btn:active,
+.btn:focus,
+.btn:hover,
+button:active,
+button:focus,
+button:hover {
+    border: whitesmoke 1px solid;
+    box-shadow: 0 2px 4px 2px aquamarine;
+    translate: 0 -5px;
+}
+
+button>a,
+button>a:active {
+    color: black;
+}
